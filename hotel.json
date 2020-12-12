@@ -1,0 +1,26 @@
+{"hotels": [
+    {
+        "name": "Marriott",
+        "rooms": "50",
+        "gym": "No",
+        "roomType": ["King","Queen","Double"],
+        "address": "232 Broadway Street",
+        "picture": "room1.jpg"
+    },
+    {
+        "name": "Sheraton",
+        "rooms": "75",
+        "gym": "Yes",
+        "roomType": ["King","Queen","Double"],
+        "address": "2020 Kingston Street",
+        "picture": "room2.jpg"
+    },
+    {"name": "Hilton",
+        "rooms": "30",
+        "gym": "No",
+        "roomType": ["Queen","Double"],
+        "address": "1313 Friday Ave.",
+        "picture": "room3.jpg"}
+
+]
+}

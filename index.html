@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta name="description" content="Hotel Booking">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Hotel Booking</title>
+
+  <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+  <header>
+    <img src="hotel.jpg" id="headerimg">
+    <h1 id="header"></h1>
+    <h2 id="topic"></h2>
+  </header>
+  <main>
+    
+
+    <h2>What I learned</h2>
+    <ul class="objectives">
+        <li>Create an external JSON file</li>
+        <li>Load the JSON file useing the Fetch API</li>
+        <li>How to use a try...catch block</li>
+        <li>How to use a async...await to make asynchronous function calls</li>
+        <li>How to retrieve and store resolved Promise data</li>
+        <li>Display data from the JSON file on the web page using three different buttons</li>
+    </ul>
+
+    <h2>Select a Hotel</h2>
+    <ul class="hotels">
+      <li class="button"><a href="#" id="marriott">Marriott Hotel Rooms</a></li>
+      <li class="button"><a href="#" id="sharaton">Sharaton Hotel Rooms</a></li>
+      <li class="button"><a href="#" id="hilton">Hilton Hotel Rooms</a></li>
+    </ul>
+
+    <h2 id="hotelName">Hotel</h2>
+    <h3>Address: <span id="address"></span></h3>
+    <p>Numbers of Rooms: <span id="rooms"></span></p>
+    <p>Gym Avalible: <span id="gym"></span></p>
+    <p>Room Types: <span id="type"></span></p>
+
+    <img id="picture">
+
+  </main>
+  <footer>
+    <p id="footertext">DGM2760 Valeriia Mykho</p>
+  </footer>
+  <script type="text/javascript" src="Unit11.js"></script>
+</body>
+</html>
