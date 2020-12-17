@@ -1,8 +1,6 @@
-@charset "UTF-8";
 body header {
 
-	background-image: url("hotel.jpg");
-    height:500px;
+    height:700px;
 	background-repeat: no-repeat;
     background-position: center top;
 }
@@ -12,12 +10,12 @@ body {
 }
 
 body header h1, body header h2{
-	padding-left: 450px;
+	padding: 0px 200px;
 	color:black;
 }
 
 main {
-	padding-left: 200px;
+	padding: 100px 200px;
 }
 
 footer {
