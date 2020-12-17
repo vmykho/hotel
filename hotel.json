@@ -8,7 +8,7 @@
         "picture": "room1.jpg"
     },
     {
-        "name": "Sheraton",
+        "name": "Sharaton",
         "rooms": "75",
         "gym": "Yes",
         "roomType": ["King","Queen","Double"],
